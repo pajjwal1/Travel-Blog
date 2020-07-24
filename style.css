@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Roboto+Condensed:ital@1&family=Roboto:wght@700&display=swap');
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+:root
+{
+	--color-black: #000000;
+	--color-white: #ffffff;
+	--color-border: ##808080;
+	--font-roboto: 'Roboto', sans-serif;
+	--font-roboto1: 'Roboto Condensed', sans-serif; /* Thsese three lines here we define only font family to variables*/
+	--font-gotu: 'Gotu', sans-serif;
+
+}
+
+/* global classes */
+.font-roboto
+{
+	font: normal 400 18px var(--font-roboto);  /* width, size font, family*/
+}
+.font-robotoo
+{
+	font: normal 300 18px var(--font-roboto1);
+}
+
+.font-gotu
+{
+	font: normal bold 18px var(--font-gotu);
+}
+.font-size-40
+{
+	font-size: 40px;
+}
+.font-size-35
+{
+	font-size: 35px;
+}
+.font-size-25
+{
+	font-size: 30px;
+}
+.font-size-20
+{
+	font-size: 20px;
+}
+.font-size-16
+{
+	font-size: 16px;
+}
+.font-size-30
+{
+	font-size: 30px;
+}
+.font-size-25
+{
+	font-size: 25px;
+}
+.bgcolor-black
+{
+	background-color: var(--color-black);
+}
+
+/* Global Classes*/
+
+#header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 0;
+	transition: left .5s ease;
+
+}
+#header .nav-link
+{
+	margin: .7rem 1rem;
+	text-decoration-color: var(--color-white);
+	border-bottom: 1px solid var(--color-white); 
+	text-transform: uppercase;
+}
+#header .nav-link:hover{
+	color: var(--color-white)!important;
+}
+
+#header .toggle-button
+{
+	background: none;
+	color: var(--color-black);
+	position: fixed;
+	top: 25px;
+	right: 20px;
+	border: 1px solid var(--color-white);
+}
+.toggle_left{
+	left: 0 !important;
+	width: 1000px !important;		
+}
+/*Slideshow*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+/*Holy Places*/
+
+  .g-scrolling-carousel .items{
+            padding: 5px 0;
+			
+        }
+        .g-scrolling-carousel .items img{
+            display: inline-block; /* notice the comments between inline-block items */
+			
+            margin-right: 10px;
+            width: 400px;
+            height: 300px;
+			line-height: 150px;
+            /*box-shadow: 0 0 5px #000;*/
+            text-align: center;
+        }
+		@media only screen and (){
+		 main{
+		  	background: #f9f9f9;
+		    width: 650px;
+			padding: 40px;
+			margin-left:auto;
+			margin-right:auto;
+			box-shadow: 2px 1px 6px #777;
+			padding-bottom: 50px;
+		  }
+		
+		 }
+
+/*Holy Places*/
+
+
+/*Pubs*/
+.fades {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 200%;
+  height: 400px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #5e0324;
+  overflow: hidden;
+  width: 200%;
+  height:0;
+  transition: .5s ease;
+}
+
+.fades:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.faded {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*Pubs*/
+
+/*Park*/
+.container{
+	position: relative;
+}
+.container .bottom-right
+{
+	position: absolute;
+	bottom: 10px;
+	right: 70px;
+}
+.container .bottom-right1
+{
+	position: absolute;
+	bottom: 10px;
+	right: 150px;
+}
+/*Park*/
+
+/*cafe*/
+
+/*cafe*/
